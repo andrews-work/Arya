@@ -1,0 +1,258 @@
+
+:root {
+  --1: rgb(0, 0, 0);
+  --2: rgb(255, 255, 255);
+  --3: rgb(208, 206, 206);
+  --4: rgb(145, 145, 145);
+  --5: rgb(109, 109, 109);
+  --6: rgb(76, 76, 76);
+
+  --10: rgb(243, 118, 64);
+  
+
+  --f1: 30px;
+  --f2: 80px;
+  --f3: 60px;
+  --f4: 40px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--10);
+  color: var(--2);
+  font-size: var(--f1);
+}
+
+.section2 {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--2);
+  border-bottom: 2px solid var(--1);
+}
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .info h1 {
+      font-size: var(--f2);
+    }
+
+.section3 {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--1);
+  border-bottom: 2px solid var(--1);
+  font-size: var(--f4);
+}
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+       text-decoration: none;
+      list-style-type: none;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 10vw;
+      font-size: var(--f1);
+    }
+
+    a:hover {
+      border-bottom: 2px solid var(--2);
+    }
+
+    a:visited {
+      color: white;
+    } 
+
+
+
+.section4 {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--3);
+}
+
+    .section4 h4 {
+      font-size: var(--f2);
+    }
+
+    .section4 p {
+      font-size: var(--f4);
+    }
+    
+.section5 {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--5);
+  color: var(--3);
+}
+
+    .location {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .time {
+      height: 20vh;
+      width: 15vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .time h4 {
+      font-size: var(--f4);
+      border-bottom: 1px solid var(--3);
+      margin-bottom: 2vh;
+    }
+
+
+.section6 {
+  height: 200vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--6);
+}   
+
+    .title2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .experience {
+      height: 60vh;
+      width: 80vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .icon {
+      height: 40vh;
+      width: 20vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      border: 2px solid black;
+    }
+
+    .section6 h4 {
+      font-size: var(--f3);
+      color: var(--2);
+    }
+
+    .section6 h5 {
+      font-size: var(--f3);
+      color: var(--2);
+    }
+
+    i {
+      font-size: var(--f2);
+      color: var(--2);
+    }
+
+    .section6 p {
+      font-size: var(--f1);
+      color: var(--2);
+    }
+
+.section7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+  background-color: var(--1);
+}
+
+    .section7 h1 {
+      display: flex;
+      color: var(--2);
+    }
+
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 60vh;
+      width: 80vw;
+      margin: 5vh 0;
+    }
+
+    .img {
+      display: flex;
+      flex-direction: column;  
+      align-items: center;
+    }
+
+    .img img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40vh;
+      width: 20vw;
+      border: white solid 2px;
+    }
+
+    .img p {
+      margin-top: 3vh;
+      color: white;
+      font-size: var(--f1);
+    }
+
+.section8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+    .section8 .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
