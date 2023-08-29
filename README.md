@@ -1,6 +1,6 @@
 ![Arya Handyman](./root/images/as.png)
 
-This is a website for a wedding RSVP inviation. 
+This is a website for a handyman based out of Melbourne, Australia
 
 ---
 
