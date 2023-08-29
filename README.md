@@ -1,4 +1,4 @@
-![Wedding Banner](./root/images/as.png)
+![Arya Handyman](./root/images/as.png)
 
 This is a website for a wedding RSVP inviation. 
 
