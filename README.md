@@ -1,5 +1,5 @@
 
-![Arya Handyman](./root/images/as.png)
+![Arya Handyman](./root/Images/as.png)
 
 
 This is a website for a handyman based out of Melbourne, Australia
